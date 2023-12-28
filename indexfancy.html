@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Style to make iframes side by side */
+        .iframe-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .iframe-container iframe {
+            width: 50%; /* Adjust the width as needed */
+            height: 400px; /* Adjust the height as needed */
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="iframe-container">
+        <iframe src="map_stopsf.html" width="1800" height="850"></iframe>
+    <div class="iframe-container">
+        <iframe src="missing_trips.html" title="Missing Trips"></iframe>
+        <iframe src="unlabelled.html" title="Unlabelled"></iframe>
+    </div>
+</body>
+</html>
